@@ -1,0 +1,314 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="Current" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" DefaultTargets="Build">
+  <PropertyGroup>
+    <ProjectType>Local</ProjectType>
+    <ProductVersion>7.10.6030</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{A61E35E7-10F8-4AE1-B4DC-F27FF4999EFD}</ProjectGuid>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ApplicationIcon>App.ico</ApplicationIcon>
+    <AssemblyKeyContainerName />
+    <AssemblyName>CardGames</AssemblyName>
+    <AssemblyOriginatorKeyFile />
+    <DefaultClientScript>JScript</DefaultClientScript>
+    <DefaultHTMLPageLayout>Grid</DefaultHTMLPageLayout>
+    <DefaultTargetSchema>IE50</DefaultTargetSchema>
+    <DelaySign>false</DelaySign>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>CardGames</RootNamespace>
+    <RunPostBuildEvent>OnBuildSuccess</RunPostBuildEvent>
+    <StartupObject />
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <OldToolsVersion>0.0</OldToolsVersion>
+    <TargetFrameworkVersion>v2.0</TargetFrameworkVersion>
+    <TargetFrameworkProfile />
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <OutputPath>bin\Debug\</OutputPath>
+    <AllowUnsafeBlocks>false</AllowUnsafeBlocks>
+    <BaseAddress>285212672</BaseAddress>
+    <CheckForOverflowUnderflow>false</CheckForOverflowUnderflow>
+    <ConfigurationOverrideFile />
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <DocumentationFile />
+    <DebugSymbols>true</DebugSymbols>
+    <FileAlignment>4096</FileAlignment>
+    <NoStdLib>false</NoStdLib>
+    <NoWarn />
+    <Optimize>false</Optimize>
+    <RegisterForComInterop>false</RegisterForComInterop>
+    <RemoveIntegerChecks>false</RemoveIntegerChecks>
+    <TreatWarningsAsErrors>false</TreatWarningsAsErrors>
+    <WarningLevel>4</WarningLevel>
+    <DebugType>full</DebugType>
+    <ErrorReport>prompt</ErrorReport>
+    <PlatformTarget>x86</PlatformTarget>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <OutputPath>bin\Release\</OutputPath>
+    <AllowUnsafeBlocks>false</AllowUnsafeBlocks>
+    <BaseAddress>285212672</BaseAddress>
+    <CheckForOverflowUnderflow>false</CheckForOverflowUnderflow>
+    <ConfigurationOverrideFile />
+    <DefineConstants>TRACE</DefineConstants>
+    <DocumentationFile />
+    <DebugSymbols>false</DebugSymbols>
+    <FileAlignment>4096</FileAlignment>
+    <NoStdLib>false</NoStdLib>
+    <NoWarn />
+    <Optimize>true</Optimize>
+    <RegisterForComInterop>false</RegisterForComInterop>
+    <RemoveIntegerChecks>false</RemoveIntegerChecks>
+    <TreatWarningsAsErrors>false</TreatWarningsAsErrors>
+    <WarningLevel>4</WarningLevel>
+    <DebugType>none</DebugType>
+    <ErrorReport>prompt</ErrorReport>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System">
+      <Name>System</Name>
+    </Reference>
+    <Reference Include="System.Data">
+      <Name>System.Data</Name>
+    </Reference>
+    <Reference Include="System.Drawing">
+      <Name>System.Drawing</Name>
+    </Reference>
+    <Reference Include="System.Windows.Forms">
+      <Name>System.Windows.Forms</Name>
+    </Reference>
+    <Reference Include="System.Xml">
+      <Name>System.XML</Name>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AcesUp\AcesUp.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AssemblyInfo.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="BeleagueredCastle\BeleagueredCastle.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Blackjack\Blackjack.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Calculation\Calculation.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Canfield\Canfield.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Canfield\Options.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Canfield\Preferences.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Card.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="CardCollection.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Corners\Corners.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Deck.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="DoubleDeck.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Foundation.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Freecell\Freecell.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Freecell\Reserve.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Freecell\Tableau.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Golf\Golf.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Klondike\Klondike.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MidnightOil\MidnightOil.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MidnightOil\PickCard.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MonteCarlo\MonteCarlo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Options.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Osmosis\Osmosis.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Preferences.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Reno\Options.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Reno\Preferences.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Reno\Reno.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="RoyalCotillion\RoyalCotillion.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SelectGame.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Sound.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Stats.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="TESTING AREA\MoveCard\CardControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="TESTING AREA\MoveCard\MoveCard.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="TESTING AREA\TemplateForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Towers\Options.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Towers\Preferences.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Towers\Reserve.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Towers\Towers.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Content Include="App.ico" />
+    <Content Include="External DLLs\cards.dll" />
+    <EmbeddedResource Include="AcesUp\AcesUp.resx">
+      <DependentUpon>AcesUp.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BeleagueredCastle\BeleagueredCastle.resx">
+      <DependentUpon>BeleagueredCastle.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Blackjack\Blackjack.resx">
+      <DependentUpon>Blackjack.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Calculation\Calculation.resx">
+      <DependentUpon>Calculation.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Canfield\Canfield.resx">
+      <DependentUpon>Canfield.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Canfield\Options.resx">
+      <DependentUpon>Options.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Corners\Corners.resx">
+      <DependentUpon>Corners.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Freecell\Freecell.resx">
+      <DependentUpon>Freecell.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Golf\Golf.resx">
+      <DependentUpon>Golf.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Klondike\Klondike.resx">
+      <DependentUpon>Klondike.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MidnightOil\MidnightOil.resx">
+      <DependentUpon>MidnightOil.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MidnightOil\PickCard.resx">
+      <DependentUpon>PickCard.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MonteCarlo\MonteCarlo.resx">
+      <DependentUpon>MonteCarlo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Options.resx">
+      <DependentUpon>Options.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Osmosis\Osmosis.resx">
+      <DependentUpon>Osmosis.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reno\Options.resx">
+      <DependentUpon>Options.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reno\Reno.resx">
+      <DependentUpon>Reno.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RoyalCotillion\RoyalCotillion.resx">
+      <DependentUpon>RoyalCotillion.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SelectGame.resx">
+      <DependentUpon>SelectGame.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TESTING AREA\MoveCard\CardControl.resx">
+      <DependentUpon>CardControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TESTING AREA\MoveCard\MoveCard.resx">
+      <DependentUpon>MoveCard.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TESTING AREA\TemplateForm.resx">
+      <DependentUpon>TemplateForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Towers\Options.resx">
+      <DependentUpon>Options.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Towers\Towers.resx">
+      <DependentUpon>Towers.cs</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="app.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Pyramid\" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <PropertyGroup>
+    <PreBuildEvent />
+    <PostBuildEvent>xcopy /y /d  "$(ProjectDir)External DLLs\*.dll" "$(ProjectDir)$(OutDir)"</PostBuildEvent>
+  </PropertyGroup>
+</Project>
